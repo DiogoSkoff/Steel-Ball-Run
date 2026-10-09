@@ -1,4 +1,4 @@
 # Atividade em dupla
 ## Criadores
-Gileade
+Gileade e
 Diogo
