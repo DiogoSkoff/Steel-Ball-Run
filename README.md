@@ -1,1 +1,4 @@
-# Steel-Ball-Run
+# Atividade em dupla
+## Criadores
+Gileade
+Diogo
