@@ -1,3 +1,60 @@
+//Questão 1.1
+
+const categorias = ['Eletrônicos', 'Vestuário', 'Alimentos'];
+
+console.log(categorias.join(', ')); 
+
+//Questão 1.2
+
+const codigosProdutos= ['101', '102', '103', '104'];
+
+console.log(codigosProdutos.join(', ')); 
+
+const fornecedores = new Array('TechSupply', 'ModaExpress', 'SuperFoods');
+
+console.log(fornecedores.join(', '));
+
+//Questão 1.3
+
+
+console.log("Primeiro elemento:", categorias[0]); 
+
+categorias[1] = 'Calçados';
+
+console.log("Array atualizado:", categorias.join(', '));
+
+
+//Questão 2.1
+
+
+categorias.push('Livros');
+
+categorias.pop();
+
+categorias.unshift('Brinquedos');
+
+categorias.shift();
+
+console.log("Array atualizado:", categorias.join(', '));
+
+//Questão 2.2
+
+console.log(categorias.length); 
+
+//Questão 2.3
+
+const jorge = categorias.indexOf('Calçados');
+console.log(jorge);
+
+const jao = categorias.includes('Eletrônicos');
+console.log(jao);
+
+//Questão 3.1
+
+for (let i = 0; i < categorias.length; i++) {
+    console.log(categorias[i]);
+}
+
 const produtos = [
 { nome: 'Teclado Mecânico', preco: 250.00, estoque: 15 },
 { nome: 'Mouse Gamer', preco: 120.00, estoque: 8 },
